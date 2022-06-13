@@ -1,0 +1,135 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.crud_reqres_kemenkeu"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/dimaswiranata/Documents/crud_reqres_kemenkeu/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/Users/dimaswiranata/Documents/crud_reqres_kemenkeu/android/app/src/debug/AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->[:file_picker] /Users/dimaswiranata/Documents/crud_reqres_kemenkeu/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
+15-->[:file_picker] /Users/dimaswiranata/Documents/crud_reqres_kemenkeu/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-77
+16
+17    <queries>
+17-->[:file_picker] /Users/dimaswiranata/Documents/crud_reqres_kemenkeu/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-15:15
+18        <intent>
+18-->[:file_picker] /Users/dimaswiranata/Documents/crud_reqres_kemenkeu/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-14:18
+19            <action android:name="android.intent.action.GET_CONTENT" />
+19-->[:file_picker] /Users/dimaswiranata/Documents/crud_reqres_kemenkeu/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-72
+19-->[:file_picker] /Users/dimaswiranata/Documents/crud_reqres_kemenkeu/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:21-69
+20
+21            <data android:mimeType="*/*" />
+21-->[:file_picker] /Users/dimaswiranata/Documents/crud_reqres_kemenkeu/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-44
+21-->[:file_picker] /Users/dimaswiranata/Documents/crud_reqres_kemenkeu/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:19-41
+22        </intent>
+23    </queries>
+24
+25    <uses-permission android:name="android.permission.CAMERA" />
+25-->[:camera_android] /Users/dimaswiranata/Documents/crud_reqres_kemenkeu/build/camera_android/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-65
+25-->[:camera_android] /Users/dimaswiranata/Documents/crud_reqres_kemenkeu/build/camera_android/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-62
+26    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+26-->[:camera_android] /Users/dimaswiranata/Documents/crud_reqres_kemenkeu/build/camera_android/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-71
+26-->[:camera_android] /Users/dimaswiranata/Documents/crud_reqres_kemenkeu/build/camera_android/intermediates/library_manifest/debug/AndroidManifest.xml:10:22-68
+27
+28    <application
+29        android:name="android.app.Application"
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.6.0] /Users/dimaswiranata/.gradle/caches/transforms-2/files-2.1/44318f973e18fa59fe3957d8af199b21/core-1.6.0/AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:icon="@mipmap/ic_launcher"
+33        android:label="crud_reqres_kemenkeu" >
+34        <activity
+35            android:name="com.example.crud_reqres_kemenkeu.MainActivity"
+36            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+37            android:exported="true"
+38            android:hardwareAccelerated="true"
+39            android:launchMode="singleTop"
+40            android:theme="@style/LaunchTheme"
+41            android:windowSoftInputMode="adjustResize" >
+42
+43            <!--
+44                 Specifies an Android theme to apply to this Activity as soon as
+45                 the Android process has started. This theme is visible to the user
+46                 while the Flutter UI initializes. After that, this theme continues
+47                 to determine the Window background behind the Flutter UI.
+48            -->
+49            <meta-data
+50                android:name="io.flutter.embedding.android.NormalTheme"
+51                android:resource="@style/NormalTheme" />
+52
+53            <intent-filter>
+54                <action android:name="android.intent.action.MAIN" />
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+57            </intent-filter>
+58        </activity>
+59        <!--
+60             Don't delete the meta-data below.
+61             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+62        -->
+63        <meta-data
+64            android:name="flutterEmbedding"
+65            android:value="2" />
+66
+67        <provider
+67-->[com.sangcomz:FishBun:0.11.2] /Users/dimaswiranata/.gradle/caches/transforms-2/files-2.1/8c79e93102b4a1ffcd3810f36d9330a1/jetified-FishBun-0.11.2/AndroidManifest.xml:12:9-20:20
+68            android:name="com.sangcomz.fishbun.FishBunFileProvider"
+68-->[com.sangcomz:FishBun:0.11.2] /Users/dimaswiranata/.gradle/caches/transforms-2/files-2.1/8c79e93102b4a1ffcd3810f36d9330a1/jetified-FishBun-0.11.2/AndroidManifest.xml:13:13-68
+69            android:authorities="com.example.crud_reqres_kemenkeu.fishbunfileprovider"
+69-->[com.sangcomz:FishBun:0.11.2] /Users/dimaswiranata/.gradle/caches/transforms-2/files-2.1/8c79e93102b4a1ffcd3810f36d9330a1/jetified-FishBun-0.11.2/AndroidManifest.xml:14:13-71
+70            android:exported="false"
+70-->[com.sangcomz:FishBun:0.11.2] /Users/dimaswiranata/.gradle/caches/transforms-2/files-2.1/8c79e93102b4a1ffcd3810f36d9330a1/jetified-FishBun-0.11.2/AndroidManifest.xml:15:13-37
+71            android:grantUriPermissions="true" >
+71-->[com.sangcomz:FishBun:0.11.2] /Users/dimaswiranata/.gradle/caches/transforms-2/files-2.1/8c79e93102b4a1ffcd3810f36d9330a1/jetified-FishBun-0.11.2/AndroidManifest.xml:16:13-47
+72            <meta-data
+72-->[com.sangcomz:FishBun:0.11.2] /Users/dimaswiranata/.gradle/caches/transforms-2/files-2.1/8c79e93102b4a1ffcd3810f36d9330a1/jetified-FishBun-0.11.2/AndroidManifest.xml:17:13-19:58
+73                android:name="android.support.FILE_PROVIDER_PATHS"
+73-->[com.sangcomz:FishBun:0.11.2] /Users/dimaswiranata/.gradle/caches/transforms-2/files-2.1/8c79e93102b4a1ffcd3810f36d9330a1/jetified-FishBun-0.11.2/AndroidManifest.xml:18:17-67
+74                android:resource="@xml/provider_paths" />
+74-->[com.sangcomz:FishBun:0.11.2] /Users/dimaswiranata/.gradle/caches/transforms-2/files-2.1/8c79e93102b4a1ffcd3810f36d9330a1/jetified-FishBun-0.11.2/AndroidManifest.xml:19:17-55
+75        </provider>
+76
+77        <activity
+77-->[com.sangcomz:FishBun:0.11.2] /Users/dimaswiranata/.gradle/caches/transforms-2/files-2.1/8c79e93102b4a1ffcd3810f36d9330a1/jetified-FishBun-0.11.2/AndroidManifest.xml:22:9-25:51
+78            android:name="com.sangcomz.fishbun.ui.album.AlbumActivity"
+78-->[com.sangcomz:FishBun:0.11.2] /Users/dimaswiranata/.gradle/caches/transforms-2/files-2.1/8c79e93102b4a1ffcd3810f36d9330a1/jetified-FishBun-0.11.2/AndroidManifest.xml:23:13-71
+79            android:label="@string/album"
+79-->[com.sangcomz:FishBun:0.11.2] /Users/dimaswiranata/.gradle/caches/transforms-2/files-2.1/8c79e93102b4a1ffcd3810f36d9330a1/jetified-FishBun-0.11.2/AndroidManifest.xml:24:13-42
+80            android:theme="@style/FishBunTheme" />
+80-->[com.sangcomz:FishBun:0.11.2] /Users/dimaswiranata/.gradle/caches/transforms-2/files-2.1/8c79e93102b4a1ffcd3810f36d9330a1/jetified-FishBun-0.11.2/AndroidManifest.xml:25:13-48
+81        <activity
+81-->[com.sangcomz:FishBun:0.11.2] /Users/dimaswiranata/.gradle/caches/transforms-2/files-2.1/8c79e93102b4a1ffcd3810f36d9330a1/jetified-FishBun-0.11.2/AndroidManifest.xml:26:9-28:51
+82            android:name="com.sangcomz.fishbun.ui.picker.PickerActivity"
+82-->[com.sangcomz:FishBun:0.11.2] /Users/dimaswiranata/.gradle/caches/transforms-2/files-2.1/8c79e93102b4a1ffcd3810f36d9330a1/jetified-FishBun-0.11.2/AndroidManifest.xml:27:13-73
+83            android:theme="@style/FishBunTheme" />
+83-->[com.sangcomz:FishBun:0.11.2] /Users/dimaswiranata/.gradle/caches/transforms-2/files-2.1/8c79e93102b4a1ffcd3810f36d9330a1/jetified-FishBun-0.11.2/AndroidManifest.xml:28:13-48
+84        <activity
+84-->[com.sangcomz:FishBun:0.11.2] /Users/dimaswiranata/.gradle/caches/transforms-2/files-2.1/8c79e93102b4a1ffcd3810f36d9330a1/jetified-FishBun-0.11.2/AndroidManifest.xml:29:9-31:54
+85            android:name="com.sangcomz.fishbun.ui.detail.DetailActivity"
+85-->[com.sangcomz:FishBun:0.11.2] /Users/dimaswiranata/.gradle/caches/transforms-2/files-2.1/8c79e93102b4a1ffcd3810f36d9330a1/jetified-FishBun-0.11.2/AndroidManifest.xml:30:13-73
+86            android:theme="@style/DetailViewTheme" />
+86-->[com.sangcomz:FishBun:0.11.2] /Users/dimaswiranata/.gradle/caches/transforms-2/files-2.1/8c79e93102b4a1ffcd3810f36d9330a1/jetified-FishBun-0.11.2/AndroidManifest.xml:31:13-51
+87
+88        <uses-library
+88-->[androidx.window:window:1.0.0-beta04] /Users/dimaswiranata/.gradle/caches/transforms-2/files-2.1/9c43fd3a6ad978cd34a93a3c68eacaeb/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+89            android:name="androidx.window.extensions"
+89-->[androidx.window:window:1.0.0-beta04] /Users/dimaswiranata/.gradle/caches/transforms-2/files-2.1/9c43fd3a6ad978cd34a93a3c68eacaeb/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+90            android:required="false" />
+90-->[androidx.window:window:1.0.0-beta04] /Users/dimaswiranata/.gradle/caches/transforms-2/files-2.1/9c43fd3a6ad978cd34a93a3c68eacaeb/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+91        <uses-library
+91-->[androidx.window:window:1.0.0-beta04] /Users/dimaswiranata/.gradle/caches/transforms-2/files-2.1/9c43fd3a6ad978cd34a93a3c68eacaeb/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+92            android:name="androidx.window.sidecar"
+92-->[androidx.window:window:1.0.0-beta04] /Users/dimaswiranata/.gradle/caches/transforms-2/files-2.1/9c43fd3a6ad978cd34a93a3c68eacaeb/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+93            android:required="false" />
+93-->[androidx.window:window:1.0.0-beta04] /Users/dimaswiranata/.gradle/caches/transforms-2/files-2.1/9c43fd3a6ad978cd34a93a3c68eacaeb/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+94    </application>
+95
+96</manifest>
